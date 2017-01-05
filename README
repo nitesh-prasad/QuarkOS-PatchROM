@@ -1,0 +1,46 @@
+
+
+QuarkOS™ Patchable Source
+===========================
+
+This README will guide you through the QuarkOS Patching and compiling.
+
+Base ROM
+----------
+
+You first need a Base ROM on top of which QuarkOS can be patched.
+
+So, what base ROM you should take?
+
+QuarkOS supports ROMs with Android 5.1.1 Lollipop and above:
+
+-- CyanogenMOD / Lineage OS
+-- AOSP
+-- MIUI
+-- ColorOS
+-- Or any other ROM.
+
+{*} How to do QuarkOS Patch?
+
+Just go through the commits and make changes as directed. Simple, isn't it?
+
+No it's not that simple. You'll know when you do it.
+
+
+{*} How to decompile and recompile APKs and Jar for QuarkOS Patching?
+
+Use latest Apktool.jar to do the job.
+
+Just use the following commands (without quotes):
+
+## Decompiling
+
+"apktool d -b filename.apk"
+"apktool d -b filename.jar"
+
+## Recompiling
+
+"apktool b filename.apk"
+"apktool b filename.jar"
+
+This README will be updated as required.
