@@ -33,16 +33,70 @@
     all others.
 -->
 <familyset>
-    <family>
+   <family>
+        <nameset>
+            <name>sst</name>
+        </nameset>
         <fileset>
-            <file variant="elegant">NotoNaskh-Regular.ttf</file>
-            <file variant="elegant">NotoNaskh-Bold.ttf</file>
+            <file>.SSTVietnamese-Roman.ttf</file>
+            <file>.SSTVietnamese-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <nameset>
+            <name>x-sst-ultralight</name>
+        </nameset>
+        <fileset>
+            <file>.SST-UltraLight.ttf</file>
+            <file>.SST-UltraLightItalic.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <nameset>
+            <name>x-sst-light</name>
+        </nameset>
+        <fileset>
+            <file>.SST-Light.ttf</file>
+            <file>.SST-LightItalic.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <nameset>
+            <name>x-sst-medium</name>
+        </nameset>
+        <fileset>
+            <file>.SST-Medium.ttf</file>
+            <file>.SST-MediumItalic.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <nameset>
+            <name>x-sst-heavy</name>
+        </nameset>
+        <fileset>
+            <file>.SST-Heavy.ttf</file>
+            <file>.SST-HeavyItalic.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <nameset>
+            <name>x-sst-condensed</name>
+        </nameset>
+        <fileset>
+            <file>.SST-Condensed.ttf</file>
+            <file>.SST-CondensedBd.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file variant="compact">NotoNaskhUI-Regular.ttf</file>
-            <file variant="compact">NotoNaskhUI-Bold.ttf</file>
+            <file variant="elegant">NotoNaskhArabic-Regular.ttf</file>
+            <file variant="elegant">NotoNaskhArabic-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="compact">NotoNaskhArabicUI-Regular.ttf</file>
+            <file variant="compact">NotoNaskhArabicUI-Bold.ttf</file>
         </fileset>
     </family>
     <family>
@@ -181,6 +235,18 @@
     </family>
     <family>
         <fileset>
+            <file variant="elegant">NotoSansOriya-Regular.ttf</file>
+            <file variant="elegant">NotoSansOriya-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="compact">NotoSansOriyaUI-Regular.ttf</file>
+            <file variant="compact">NotoSansOriyaUI-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
             <file>NotoSansSinhala-Regular.ttf</file>
             <file>NotoSansSinhala-Bold.ttf</file>
         </fileset>
@@ -236,6 +302,11 @@
     <family>
         <fileset>
             <file>NotoSansBalinese-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansBamum-Regular.ttf</file>
         </fileset>
     </family>
     <family>
@@ -300,7 +371,27 @@
     </family>
     <family>
         <fileset>
+            <file>NotoSansLisu-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansMandaic-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
             <file>NotoSansMeeteiMayek-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansNewTaiLue-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansNKo-Regular.ttf</file>
         </fileset>
     </family>
     <family>
@@ -330,6 +421,11 @@
     </family>
     <family>
         <fileset>
+            <file>NotoSansSyriacEstrangela-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
             <file>NotoSansTagbanwa-Regular.ttf</file>
         </fileset>
     </family>
@@ -345,7 +441,17 @@
     </family>
     <family>
         <fileset>
+            <file>NotoSansTibetan-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
             <file>NotoSansTifinagh-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansVai-Regular.ttf</file>
         </fileset>
     </family>
     <family>
@@ -355,17 +461,17 @@
     </family>
     <family>
         <fileset>
-            <file>Lohit-Odia.ttf</file>
+            <file>NotoSansSymbols-Regular-Subsetted.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file lang="zh-Hans">NotoSansHans-Regular.otf</file>
+            <file lang="zh-Hans">NotoSansSC-Regular.otf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file lang="zh-Hant">NotoSansHant-Regular.otf</file>
+            <file lang="zh-Hant">NotoSansTC-Regular.otf</file>
         </fileset>
     </family>
     <family>
@@ -410,6 +516,11 @@
     <family>
         <fileset>
             <file>NotoSansTaiLe-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansMongolian-Regular.ttf</file>
         </fileset>
     </family>
 </familyset>
