@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wake_up_gesture"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/wake_up_gesture" android:key="isWakeUpGestureOpen" />
+    <CheckBoxPreference android:title="@string/double_click_wake_title" android:key="isDoubleClickWake" android:summary="@string/double_click_wake_summary" android:dependency="isWakeUpGestureOpen" />
+    <CheckBoxPreference android:title="@string/u_unlock_screen_title" android:key="isSlideToUnlock" android:summary="@string/u_unlock_screen_summary" android:dependency="isWakeUpGestureOpen" />
+    <CheckBoxPreference android:title="@string/d_start_camera_title" android:key="isDeclinePhotos" android:summary="@string/d_start_camera_summary" android:dependency="isWakeUpGestureOpen" />
+    <CheckBoxPreference android:title="@string/cross_slide_switch_songs_title" android:key="isCrossSlideSwitchSongs" android:summary="@string/cross_slide_switch_songs_summary" android:dependency="isWakeUpGestureOpen" />
+    <CheckBoxPreference android:title="@string/c_dialog_title" android:key="isCContacts" android:summary="@string/c_dialog_summary" android:dependency="isWakeUpGestureOpen" />
+    <CheckBoxPreference android:title="@string/e_browser_title" android:key="isEBrowser" android:summary="@string/e_browser_summary" android:dependency="isWakeUpGestureOpen" />
+    <CheckBoxPreference android:title="@string/m_play_music_title" android:key="isMMusic" android:summary="@string/m_play_music_summary" android:dependency="isWakeUpGestureOpen" />
+</PreferenceScreen>

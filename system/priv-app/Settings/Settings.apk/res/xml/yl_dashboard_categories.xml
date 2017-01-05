@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dashboard-categories
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dashboard-category android:id="@id/wireless_section" android:title="@string/header_category_wireless_networks">
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_wireless" android:id="@id/wifi_settings" android:title="@string/wifi_settings_title" android:fragment="com.android.settings.wifi.WifiSettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_bluetooth2" android:id="@id/bluetooth_settings" android:title="@string/bluetooth_settings_title" android:fragment="com.android.settings.bluetooth.BluetoothSettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_sim_sd" android:id="@id/sim_settings" android:title="@string/sim_settings_title" android:fragment="com.android.settings.sim.SimSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_4g" android:id="@id/lte_4g_settings" android:title="@string/lte_4g_settings_title" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_data_usage" android:id="@id/data_usage_settings" android:title="@string/data_usage_summary_title" android:fragment="com.android.settings.DataUsageSummary" />
+        <dashboard-tile android:id="@id/operator_settings" android:fragment="com.android.settings.WirelessSettings">
+            <intent android:action="com.android.settings.OPERATOR_APPLICATION_SETTING" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_more" android:id="@id/wireless_settings" android:title="@string/radio_controls_title" android:fragment="com.android.settings.WirelessSettings" />
+    </dashboard-category>
+    <dashboard-category android:id="@id/device_section" android:title="@string/header_category_device">
+        <dashboard-tile android:icon="@drawable/ic_settings_roaming" android:id="@id/global_roaming_settings" android:title="@string/label_global_roaming_settings">
+            <intent android:action="com.android.action.roamingsettings" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_home" android:id="@id/home_settings" android:title="@string/home_settings" android:fragment="com.android.settings.HomeSettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_buttons" android:id="@id/button_settings" android:title="@string/button_pref_title" android:fragment="com.android.settings.ButtonSettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_display" android:id="@id/display_settings" android:title="@string/display_settings" android:fragment="com.android.settings.DisplaySettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_notifications" android:id="@id/notification_settings" android:title="@string/notification_settings" android:fragment="com.android.settings.notification.NotificationSettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_storage" android:id="@id/storage_settings" android:title="@string/storage_settings" android:fragment="com.android.settings.deviceinfo.Memory" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_battery" android:id="@id/battery_settings" android:title="@string/power_usage_summary_title" android:fragment="com.android.settings.fuelgauge.PowerUsageSummary" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_battery" android:id="@id/battery_power_saving_settings" android:title="@string/battery_and_power_saving">
+            <intent android:targetPackage="com.yulong.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.yulong.android.settings.powersaving.BatteryAndPowerSaving" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_applications" android:id="@id/application_settings" android:title="@string/applications_settings" android:fragment="com.android.settings.applications.ManageApplications" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_multiuser" android:id="@id/user_settings" android:title="@string/user_settings_title" android:fragment="com.android.settings.users.UserSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_nfc_payment" android:id="@id/nfc_payment_settings" android:title="@string/nfc_payment_settings_title" android:fragment="com.android.settings.nfc.PaymentSettings" />
+        <dashboard-tile android:id="@id/manufacturer_settings" android:fragment="com.android.settings.WirelessSettings">
+            <intent android:action="com.android.settings.MANUFACTURER_APPLICATION_SETTING" />
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/personal_section" android:title="@string/header_category_personal">
+        <dashboard-tile android:icon="@drawable/ic_notification_control_center" android:id="@id/notification_control_center" android:title="@string/notification_control_center_label">
+            <intent android:targetPackage="com.yulong.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.yulong.android.settings.notificationsettings.NotificationSettingsActivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_smartcontrol" android:id="@id/smart_control_settings" android:title="@string/smart_control_title" android:fragment="com.yulong.settings.samrtcontrol.SmartControlFragment" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_profile" android:id="@id/profile_settings" android:title="@string/profiles_settings_title" android:fragment="com.android.settings.profiles.ProfilesSettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_location" android:id="@id/location_settings" android:title="@string/location_settings_title" android:fragment="com.android.settings.location.LocationSettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_security" android:id="@id/security_settings" android:title="@string/security_settings_title" android:fragment="com.android.settings.SecuritySettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_accounts" android:id="@id/account_settings" android:title="@string/account_settings_title" android:fragment="com.android.settings.accounts.AccountSettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_language" android:id="@id/language_settings" android:title="@string/language_settings" android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_gestures" android:id="@id/gestures_settings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_backup" android:id="@id/privacy_settings" android:title="@string/privacy_settings" android:fragment="com.android.settings.PrivacySettings" />
+    </dashboard-category>
+    <dashboard-category android:id="@id/system_section" android:title="@string/header_category_system">
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_date_time" android:id="@id/date_time_settings" android:title="@string/date_and_time_settings_title" android:fragment="com.android.settings.DateTimeSettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_power_on_off" android:id="@id/auto_startup_shutdown_settings" android:title="@string/auto_startup_shutdown_enable">
+            <intent android:targetPackage="com.yulong.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.yulong.android.settings.alarm.AutoStartupShutdownSettings" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_timerswitch" android:id="@id/timer_switch_settings" android:title="@string/timer_switch_settings_title" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_accessibility" android:id="@id/accessibility_settings" android:title="@string/accessibility_settings" android:fragment="com.android.settings.accessibility.AccessibilitySettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_print" android:id="@id/print_settings" android:title="@string/print_settings" android:fragment="com.android.settings.print.PrintSettingsFragment" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_development" android:id="@id/development_settings" android:title="@string/development_settings_title" android:fragment="com.android.settings.DevelopmentSettings" />
+        <dashboard-tile android:icon="@drawable/yl_ic_settings_about" android:id="@id/about_settings" android:title="@string/about_settings" android:fragment="com.android.settings.DeviceInfoSettings" />
+    </dashboard-category>
+</dashboard-categories>
