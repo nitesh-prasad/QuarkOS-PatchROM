@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/changelog_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/changelog_name" android:summary="@string/changelog_name_summary" style="?android:preferenceInformationStyle" />
+    <Preference android:summary="@string/changelog_name_summary1" style="?android:preferenceInformationStyle" />
+    <Preference android:summary="@string/changelog_name_summary2" style="?android:preferenceInformationStyle" />
+</PreferenceScreen>

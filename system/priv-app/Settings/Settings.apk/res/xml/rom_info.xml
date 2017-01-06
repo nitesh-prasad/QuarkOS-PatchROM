@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_rom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/rom_name" android:summary="@string/rom_name_summary" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/rom_developer" android:summary="@string/rom_developer_summary" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/rom_version" android:summary="@string/rom_version_summary" style="?android:preferenceInformationStyle" />
+    <PreferenceScreen android:title="@string/rom_thanks" android:key="rom_thanks" android:summary="@string/rom_thanks_summary" android:fragment="com.android.settings.RomContributor" />
+    <Preference android:title="@string/mywebsite" android:key="website" android:summary="@string/website">
+        <intent android:action="android.intent.action.VIEW" android:data="http://www.osbusters.net/" />
+    </Preference>
+    <PreferenceScreen android:title="@string/changelog_title" android:key="changelog" android:fragment="com.android.settings.RomChangelog" />
+    <PreferenceScreen android:title="@string/additional_info" android:key="container" android:summary="@string/additional_info_summary">
+        <Preference android:title="@string/info" android:summary="@string/info_summary" style="?android:preferenceInformationStyle" />
+    </PreferenceScreen>
+</PreferenceScreen>

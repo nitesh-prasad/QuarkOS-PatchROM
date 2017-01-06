@@ -2,15 +2,7 @@
 <PreferenceScreen android:title="@string/about_settings"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:layout="@layout/quarkos_banner" android:title="" android:key="quarkos_header_image" />
-    <PreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="system_update_settings" android:summary="@string/system_update_settings_list_item_summary">
-        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
-    </PreferenceScreen>
-    <PreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="third_party_system_update_settings" android:summary="@string/system_update_settings_list_item_summary">
-        <intent android:targetPackage="@string/third_party_system_update" android:action="android.intent.action.MAIN" android:targetClass="@string/third_party_system_update_menu" />
-    </PreferenceScreen>
-    <PreferenceScreen android:title="@string/additional_system_update_settings_list_item_title" android:key="additional_system_update_settings">
-        <intent android:targetPackage="@string/additional_system_update" android:action="android.intent.action.MAIN" android:targetClass="@string/additional_system_update_menu" />
-    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/about_rom" android:key="container" android:summary="@string/about_rom_summary" android:fragment="com.android.settings.AboutRom" />
     <PreferenceScreen android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_summary">
         <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Status" />
     </PreferenceScreen>

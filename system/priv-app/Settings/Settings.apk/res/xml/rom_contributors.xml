@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/rom_thanks"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/rom_thanks_to" android:summary="@string/rom_thanks_to_summary" style="?android:preferenceInformationStyle" />
+    <Preference android:summary="@string/rom_thanks_to_summary_more" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/testing_team" android:summary="@string/rom_thanks_to_testers" style="?android:preferenceInformationStyle" />
+</PreferenceScreen>

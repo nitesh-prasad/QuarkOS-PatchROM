@@ -3552,4 +3552,86 @@ To start Lock-to-app"</string>
     <item type="string" name="APKTOOL_DUMMY_d6f">false</item>
     <item type="string" name="APKTOOL_DUMMY_d70">false</item>
     <item type="string" name="APKTOOL_DUMMY_d71">false</item>
+    <string name="about_rom">About ROM</string>
+    <string name="about_rom_summary">Click here to know more about QuarkOS™</string>
+    <string name="rom_name">ROM Name</string>
+    <string name="rom_name_summary">QuarkOS™</string>
+    <string name="rom_developer">ROM Developer</string>
+    <string name="rom_developer_summary">Nitesh Prasad (nitesh9)</string>
+    <string name="rom_version">ROM Version</string>
+    <string name="rom_version_summary">2.0 Stable</string>
+    <string name="rom_thanks">Special Thanks</string>
+    <string name="rom_thanks_summary">Touch here to see the names</string>
+    <string name="mywebsite">Website</string>
+    <string name="website">Touch here to go to official website</string>
+    <string name="about_gen">General Information</string>
+    <string name="changelog_title">Changelogs</string>
+    <string name="changelog_dialog">QuarkOS™ CHANGELOGS</string>
+    <string name="changelog_loading">Download the list of changes...</string>
+    <string name="changelog_error">Error loading list of changes</string>
+    <string name="additional_info">Additional Information</string>
+    <string name="additional_info_summary">Some additional information about ROM</string>
+    <string name="info">QuarkOS™ -- The Ultimate OS</string>
+    <string name="info_summary">"(An OS Busters™ Product)
+"<b>Includes:</b>"
+Xperia features, apps, walpapers and UI.
+QuarkOS customizations.
+Quasar Atmox™ Ultimate Sound.
+And lot more..."</string>
+    <string name="rom_thanks_to">Special Thanks To:</string>
+    <string name="rom_thanks_to_summary">"- YU Televentures and Coolpad
+- Sony™
+- HTC Corporation
+- ASUS
+- Temasek
+- CyanogenMod
+- Shoaib05 for kernel and loadshifter mod
+- Sanjeet990 SystemUI fix
+- androidexpert35
+- xperiaz2"</string>
+    <string name="changelog_name">QuarkOS™ v2.0 Stable (18.12.2016)</string>
+    <string name="changelog_name_summary"><b>+ Second release +</b>"
+- Fixed UI glitches
+- Tweaked power usage so no bootloops now
+- Added new smart gestures
+- Added OmniSwitch and Pie Control
+- Added DPI control
+- Added material power menu
+- Added app sidebar
+- Added network traffic monitor
+- Added OxygenOS camera support"</string>
+    <string name="rom_thanks_to_summary_more">"- noname81 for LMT launcher
+- chornerman_studio for DPI Changer
+- OmniROM
+- zst123 for multiwindow sidebar
+- Vishal Gohel for Gexture
+- QuarkOS™ Official Group
+- And other YU Forum/XDA Members"</string>
+    <string name="testing_team">Testing team</string>
+    <string name="rom_thanks_to_testers">"- sailor80
+- Prasoon Mehra (a.k.a. prasoonmehra)
+- The_Guy (a.k.a. _ghost)
+- wolfie616
+- darshan1205
+- Anubhavjain707
+- Prashant Maheshwari"</string>
+    <string name="changelog_name_summary1">"- Added zialign, init.d scripts and build.prop tweaks
+- Added loadshifter mod
+- Added dynamic navbar mod
+- Added new FM Radio
+- Added conference call support
+- RRO Layers supported
+- Humongous battery backup
+- Changed launcher with themes support
+- Changed keyboard to AOSP"</string>
+    <string name="changelog_name_summary2">"- Removed some unuseful apps
+- Improved Quark Fluid UI
+- Added flat design with Pixel navbar
+- New workaround for LED notification
+- Improved camera performance
+- Improved overall performance
+- Fixed Call recording
+- Fixed Visualizer
+- Updated apps
+- And lot more...discover yourself"</string>
 </resources>
