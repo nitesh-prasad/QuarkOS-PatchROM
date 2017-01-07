@@ -3635,4 +3635,8 @@ And lot more..."</string>
 - Updated apps
 - And lot more...discover yourself"</string>
     <string name="quark_settings">Quark™ additions</string>
+    <string name="quark_display">Display</string>
+    <string name="quark_sound">Quasar Atmox™ Sound</string>
+    <string name="quark_additional_features">Additional features</string>
+    <string name="quark_advanced">Advanced</string>
 </resources>
