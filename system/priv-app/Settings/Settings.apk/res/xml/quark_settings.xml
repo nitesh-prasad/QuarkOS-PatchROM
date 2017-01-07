@@ -3,6 +3,9 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
     <PreferenceCategory android:title="@string/quark_display" android:key="quark_display_category" />
+    <PreferenceScreen android:title="@string/quark_image_enhancement" android:key="quark_img_enhancement" android:summary="@string/quark_image_enhancement_summary">
+        <intent android:targetPackage="com.sonymobile.imageenhancer" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.imageenhancer.ImageEnhancerSettings" />
+    </PreferenceScreen>
     <PreferenceCategory android:title="@string/quark_sound" android:key="quark_sound_category" />
     <PreferenceCategory android:title="@string/quark_additional_features" android:key="quark_additional_category" />
     <PreferenceCategory android:title="@string/quark_advanced" android:key="quark_advanced_category" />    

@@ -3639,4 +3639,6 @@ And lot more..."</string>
     <string name="quark_sound">Quasar Atmox™ Sound</string>
     <string name="quark_additional_features">Additional features</string>
     <string name="quark_advanced">Advanced</string>
+    <string name="quark_image_enhancement">Image enhancement</string>
+    <string name="quark_image_enhancement_summary">Sony™ image enhancement technology for Xperia apps</string>
 </resources>
