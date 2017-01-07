@@ -788,4 +788,5 @@
     <item type="id" name="vpn_create">false</item>
     <item type="id" name="vpn_lockdown">false</item>
     <item type="id" name="wifi_wps">false</item>
+    <item type="id" name="quark_settings">false</item>
 </resources>
