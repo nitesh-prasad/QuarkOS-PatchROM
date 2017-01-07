@@ -6,6 +6,9 @@
     <PreferenceScreen android:title="@string/quark_image_enhancement" android:key="quark_img_enhancement" android:summary="@string/quark_image_enhancement_summary">
         <intent android:targetPackage="com.sonymobile.imageenhancer" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.imageenhancer.ImageEnhancerSettings" />
     </PreferenceScreen>
+    <PreferenceScreen android:title="@string/quark_color_control" android:key="kcal_color_control" android:summary="@string/quark_color_control_summary">
+        <intent android:targetPackage="re.codefi.savoca.kcal" android:action="android.intent.action.MAIN" android:targetClass="re.codefi.savoca.kcal.MainActivity" />
+    </PreferenceScreen>
     <PreferenceCategory android:title="@string/quark_sound" android:key="quark_sound_category" />
     <PreferenceCategory android:title="@string/quark_additional_features" android:key="quark_additional_category" />
     <PreferenceCategory android:title="@string/quark_advanced" android:key="quark_advanced_category" />    

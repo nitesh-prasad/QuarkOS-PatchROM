@@ -3641,4 +3641,6 @@ And lot more..."</string>
     <string name="quark_advanced">Advanced</string>
     <string name="quark_image_enhancement">Image enhancement</string>
     <string name="quark_image_enhancement_summary">Sony™ image enhancement technology for Xperia apps</string>
+    <string name="quark_color_control">Color Control</string>
+    <string name="quark_color_control_summary">Control screen saturation, contrast, hue etc.</string>
 </resources>
