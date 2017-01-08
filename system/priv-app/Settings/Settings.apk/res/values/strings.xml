@@ -3682,4 +3682,6 @@ And lot more..."</string>
     <string name="quark_kernel_adiutor_summary">Change kernel settings</string>
     <string name="quark_supersu">SuperSU</string>
     <string name="quark_adaway">Block Ads</string>
+    <string name="quark_backlight">Key backlight control</string>
+    <string name="quark_backlight_summary">Enable or disable backlight of hardware buttons</string>
 </resources>

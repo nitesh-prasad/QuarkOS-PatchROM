@@ -14,6 +14,9 @@
     </PreferenceScreen>
     <PreferenceScreen android:title="@string/wallpaper_settings_title" android:key="wallpaper" android:fragment="com.android.settings.WallpaperTypeSettings" settings:keywords="@string/keywords_display_wallpaper" />
     <com.android.settings.ScreenTimeoutPreference android:persistent="false" android:entries="@array/screen_timeout_entries" android:title="@string/screen_timeout" android:key="screen_timeout" android:summary="@string/screen_timeout_summary" android:entryValues="@array/screen_timeout_values" />
+    <PreferenceScreen android:title="@string/quark_backlight" android:key="quark_backlight_key" android:summary="@string/quark_backlight_summary">
+        <intent android:targetPackage="com.deskangel.kblight" android:action="android.intent.action.MAIN" android:targetClass="com.deskangel.kblight.kbLight" />
+    </PreferenceScreen>
     <ListPreference android:persistent="false" android:entries="@array/key_light_duration_entries" android:title="@string/key_light_duration_title" android:key="key_light_duration" android:entryValues="@array/key_light_duration_values" />
     <PreferenceScreen android:title="@string/screensaver_settings_title" android:key="screensaver" android:fragment="com.android.settings.DreamSettings" />
     <SwitchPreference android:persistent="false" android:title="@string/lift_to_wake_title" android:key="lift_to_wake" />
