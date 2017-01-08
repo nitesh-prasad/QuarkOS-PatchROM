@@ -3680,4 +3680,5 @@ And lot more..."</string>
     <string name="quark_omni_switch">OmniSwitch</string>
     <string name="quark_kernel_adiutor">Kernel Control</string>
     <string name="quark_kernel_adiutor_summary">Change kernel settings</string>
+    <string name="quark_supersu">SuperSU</string>
 </resources>
