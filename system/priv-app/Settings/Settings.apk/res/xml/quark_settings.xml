@@ -18,5 +18,8 @@
     <PreferenceScreen android:title="@string/quark_appsidebar" android:key="quark_app_sidebar" android:summary="@string/quark_appsidebar_summary">
         <intent android:targetPackage="com.zst.app.multiwindowsidebar" android:action="android.intent.action.MAIN" android:targetClass="com.zst.app.multiwindowsidebar.MainActivity" />
     </PreferenceScreen>
+    <PreferenceScreen android:title="@string/quark_pie_control" android:key="quark_pie">
+        <intent android:targetPackage="com.noname81.lmt" android:action="android.intent.action.MAIN" android:targetClass="com.noname81.lmt.LMT" />
+    </PreferenceScreen>
     <PreferenceCategory android:title="@string/quark_advanced" android:key="quark_advanced_category" />    
 </PreferenceScreen>
