@@ -12,5 +12,8 @@
     <PreferenceScreen android:title="@string/network_traffic_title" android:key="network_traffic_state " android:summary="@string/network_traffic_summary" android:fragment="com.android.settings.temasek.NetworkTraffic" />
     <PreferenceCategory android:title="@string/quark_sound" android:key="quark_sound_category" />
     <PreferenceCategory android:title="@string/quark_additional_features" android:key="quark_additional_category" />
+    <PreferenceScreen android:title="@string/quark_dpi_change" android:key="quark_dpi" android:summary="@string/quark_dpi_change_summary">
+        <intent android:targetPackage="com.chornerman.easydpichanger" android:action="android.intent.action.MAIN" android:targetClass="com.chornerman.easydpichanger.MainActivity" />
+    </PreferenceScreen>
     <PreferenceCategory android:title="@string/quark_advanced" android:key="quark_advanced_category" />    
 </PreferenceScreen>
