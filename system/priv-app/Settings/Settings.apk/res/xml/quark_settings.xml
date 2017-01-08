@@ -21,5 +21,8 @@
     <PreferenceScreen android:title="@string/quark_pie_control" android:key="quark_pie">
         <intent android:targetPackage="com.noname81.lmt" android:action="android.intent.action.MAIN" android:targetClass="com.noname81.lmt.LMT" />
     </PreferenceScreen>
+    <PreferenceScreen android:title="@string/quark_omni_switch" android:key="omni_switch">
+        <intent android:targetPackage="org.omnirom.omniswitch" android:action="android.intent.action.MAIN" android:targetClass="org.omnirom.omniswitch.SettingsActivity" />
+    </PreferenceScreen>
     <PreferenceCategory android:title="@string/quark_advanced" android:key="quark_advanced_category" />    
 </PreferenceScreen>

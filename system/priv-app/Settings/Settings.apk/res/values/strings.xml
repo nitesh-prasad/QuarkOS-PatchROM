@@ -3677,4 +3677,5 @@ And lot more..."</string>
     <string name="quark_appsidebar">App Sidebar</string>
     <string name="quark_appsidebar_summary">Enable Touchwiz app sidebar and multiwindow support</string>
     <string name="quark_pie_control">Pie Control</string>
+    <string name="quark_omni_switch">OmniSwitch</string>
 </resources>
