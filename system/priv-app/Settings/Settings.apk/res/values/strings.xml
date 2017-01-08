@@ -3678,4 +3678,6 @@ And lot more..."</string>
     <string name="quark_appsidebar_summary">Enable Touchwiz app sidebar and multiwindow support</string>
     <string name="quark_pie_control">Pie Control</string>
     <string name="quark_omni_switch">OmniSwitch</string>
+    <string name="quark_kernel_adiutor">Kernel Control</string>
+    <string name="quark_kernel_adiutor_summary">Change kernel settings</string>
 </resources>

@@ -24,5 +24,8 @@
     <PreferenceScreen android:title="@string/quark_omni_switch" android:key="omni_switch">
         <intent android:targetPackage="org.omnirom.omniswitch" android:action="android.intent.action.MAIN" android:targetClass="org.omnirom.omniswitch.SettingsActivity" />
     </PreferenceScreen>
-    <PreferenceCategory android:title="@string/quark_advanced" android:key="quark_advanced_category" />    
+    <PreferenceCategory android:title="@string/quark_advanced" android:key="quark_advanced_category" />
+    <PreferenceScreen android:title="@string/quark_kernel_adiutor" android:key="kernel_adiutor" android:summary="@string/quark_kernel_adiutor_summary">
+        <intent android:targetPackage="com.kerneladiutor.mod" android:action="android.intent.action.MAIN" android:targetClass="com.grarak.kerneladiutor.MainActivity" />
+    </PreferenceScreen>
 </PreferenceScreen>
