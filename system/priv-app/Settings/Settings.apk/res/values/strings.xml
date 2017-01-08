@@ -3672,4 +3672,6 @@ And lot more..."</string>
     <string name="color_default">Default</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
+    <string name="quark_dpi_change">DPI Settings</string>
+    <string name="quark_dpi_change_summary">Change screen DPI in real-time</string>
 </resources>
