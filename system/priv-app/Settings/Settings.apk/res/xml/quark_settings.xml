@@ -31,4 +31,7 @@
     <PreferenceScreen android:title="@string/quark_supersu" android:key="supersu">
         <intent android:targetPackage="eu.chainfire.supersu" android:action="android.intent.action.MAIN" android:targetClass="eu.chainfire.supersu.MainActivity" />
     </PreferenceScreen>
+    <PreferenceScreen android:title="@string/quark_adaway" android:key="adaway">
+        <intent android:targetPackage="org.adaway" android:action="android.intent.action.MAIN" android:targetClass="org.adaway.ui.BaseActivity" />
+    </PreferenceScreen>
 </PreferenceScreen>

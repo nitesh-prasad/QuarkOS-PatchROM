@@ -3681,4 +3681,5 @@ And lot more..."</string>
     <string name="quark_kernel_adiutor">Kernel Control</string>
     <string name="quark_kernel_adiutor_summary">Change kernel settings</string>
     <string name="quark_supersu">SuperSU</string>
+    <string name="quark_adaway">Block Ads</string>
 </resources>
