@@ -49,4 +49,10 @@
     <attr name="side_margin" format="reference|dimension" />
     <attr name="wifi_signal_color" format="reference" />
     <attr name="wifi_signal" format="reference" />
+    <attr name="maximum" format="integer" />
+    <attr name="minimum" format="integer" />
+    <attr name="interval" format="integer" />
+    <attr name="unitsLeft" format="string" />
+    <attr name="min" format="float" />
+    <attr name="unitsRight" format="string" />
 </resources>

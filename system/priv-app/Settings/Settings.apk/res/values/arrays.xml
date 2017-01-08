@@ -1332,6 +1332,38 @@
         <item>@string/input_method_selector_always_show_value</item>
         <item>@string/input_method_selector_always_hide_value</item>
     </string-array>
+    <string-array name="show_network_traffic_state_entries">
+        <item>@string/show_network_traffic_disable</item>
+        <item>@string/show_network_traffic_up</item>
+        <item>@string/show_network_traffic_down</item>
+        <item>@string/show_network_traffic_all</item>
+    </string-array>
+    <string-array name="show_network_traffic_state_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="show_network_traffic_unit_entries">
+        <item>@string/show_network_traffic_bit</item>
+        <item>@string/show_network_traffic_byte</item>
+    </string-array>
+    <string-array name="show_network_traffic_unit_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="show_network_traffic_frequency_entries">
+        <item>@string/show_network_traffic_500</item>
+        <item>@string/show_network_traffic_1000</item>
+        <item>@string/show_network_traffic_1500</item>
+        <item>@string/show_network_traffic_2000</item>
+    </string-array>
+    <string-array name="show_network_traffic_frequency_values">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
     <item type="array" name="APKTOOL_DUMMY_96">false</item>
     <item type="array" name="APKTOOL_DUMMY_97">false</item>
     <item type="array" name="APKTOOL_DUMMY_98">false</item>

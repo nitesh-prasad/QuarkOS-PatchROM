@@ -78,4 +78,5 @@
     <color name="facelock_spotlight_mask">#cc000000</color>
     <color name="clock_white">#ffffffff</color>
     <color name="clock_gray">#99ffffff</color>
+    <color name="status_bar_traffic_color">#ffffffff</color>
 </resources>

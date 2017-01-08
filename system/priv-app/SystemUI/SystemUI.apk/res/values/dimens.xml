@@ -310,4 +310,6 @@
     <item type="dimen" name="APKTOOL_DUMMY_138">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_139">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_13a">false</item>
+    <dimen name="net_traffic_single_text_size">12.0dip</dimen>
+    <dimen name="net_traffic_multi_text_size">9.0dip</dimen>
 </resources>

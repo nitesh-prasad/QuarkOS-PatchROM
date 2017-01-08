@@ -9,6 +9,7 @@
     <PreferenceScreen android:title="@string/quark_color_control" android:key="kcal_color_control" android:summary="@string/quark_color_control_summary">
         <intent android:targetPackage="re.codefi.savoca.kcal" android:action="android.intent.action.MAIN" android:targetClass="re.codefi.savoca.kcal.MainActivity" />
     </PreferenceScreen>
+    <PreferenceScreen android:title="@string/network_traffic_title" android:key="network_traffic_state " android:summary="@string/network_traffic_summary" android:fragment="com.android.settings.temasek.NetworkTraffic" />
     <PreferenceCategory android:title="@string/quark_sound" android:key="quark_sound_category" />
     <PreferenceCategory android:title="@string/quark_additional_features" android:key="quark_additional_category" />
     <PreferenceCategory android:title="@string/quark_advanced" android:key="quark_advanced_category" />    

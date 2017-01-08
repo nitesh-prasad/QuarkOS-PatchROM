@@ -24,4 +24,8 @@
     <integer name="sim_name_length">32</integer>
     <integer name="bluetooth_name_length">248</integer>
     <integer name="preference_scrollbar_style">33554432</integer>
+    <integer name="maskUp">0x1</integer>
+    <integer name="maskDown">0x2</integer>
+    <integer name="maskUnit">0x4</integer>
+    <integer name="maskPeriod">0xffff0000</integer>
 </resources>
