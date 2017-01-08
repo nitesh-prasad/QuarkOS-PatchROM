@@ -3674,4 +3674,6 @@ And lot more..."</string>
     <string name="arrow_down">↓</string>
     <string name="quark_dpi_change">DPI Settings</string>
     <string name="quark_dpi_change_summary">Change screen DPI in real-time</string>
+    <string name="quark_appsidebar">App Sidebar</string>
+    <string name="quark_appsidebar_summary">Enable Touchwiz app sidebar and multiwindow support</string>
 </resources>

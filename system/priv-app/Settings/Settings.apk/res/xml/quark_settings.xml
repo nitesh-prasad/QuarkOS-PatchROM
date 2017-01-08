@@ -15,5 +15,8 @@
     <PreferenceScreen android:title="@string/quark_dpi_change" android:key="quark_dpi" android:summary="@string/quark_dpi_change_summary">
         <intent android:targetPackage="com.chornerman.easydpichanger" android:action="android.intent.action.MAIN" android:targetClass="com.chornerman.easydpichanger.MainActivity" />
     </PreferenceScreen>
+    <PreferenceScreen android:title="@string/quark_appsidebar" android:key="quark_app_sidebar" android:summary="@string/quark_appsidebar_summary">
+        <intent android:targetPackage="com.zst.app.multiwindowsidebar" android:action="android.intent.action.MAIN" android:targetClass="com.zst.app.multiwindowsidebar.MainActivity" />
+    </PreferenceScreen>
     <PreferenceCategory android:title="@string/quark_advanced" android:key="quark_advanced_category" />    
 </PreferenceScreen>
