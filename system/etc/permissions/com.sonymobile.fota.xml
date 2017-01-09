@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2013 Sony Mobile Communications AB
+ * All rights, including trade secret rights, reserved.
+ -->
+<permissions>
+    <!-- Corresponds to version 1,2 in the api-git.
+         Note, the naming does not follow the somc standard. -->
+    <library name="com.sonymobile.fota"
+            file="/system/framework/com.sonymobile.fota.jar"/>
+
+    <!-- Corresponds to version 3 in the api-git -->
+    <library name="com.sonymobile.fota.api_3"
+            file="/system/framework/com.sonymobile.fota.jar"/>
+
+    <!-- Modemswitcher api added, corresponds to version 4 in the api-git -->
+    <library name="com.sonymobile.fota.api_4"
+            file="/system/framework/com.sonymobile.fota.jar"/>
+
+    <!-- PackageScanner api added, corresponds to version 5 in the api-git -->
+    <library name="com.sonymobile.fota.api_5"
+            file="/system/framework/com.sonymobile.fota.jar"/>
+</permissions>

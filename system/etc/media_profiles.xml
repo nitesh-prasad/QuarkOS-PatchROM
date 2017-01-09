@@ -21,7 +21,9 @@
                          VideoEncoderCap+,
                          AudioEncoderCap+,
                          VideoDecoderCap,
-                         AudioDecoderCap)>
+                         AudioDecoderCap,
+                         VideoEditorCap,
+                         ExportVideoProfile)>
 <!ELEMENT CamcorderProfiles (EncoderProfile+, ImageEncoding+, ImageDecoding, Camera)>
 <!ELEMENT EncoderProfile (Video, Audio)>
 <!ATTLIST EncoderProfile quality (high|low) #REQUIRED>
@@ -44,6 +46,7 @@
 <!ELEMENT ImageDecoding EMPTY>
 <!ATTLIST ImageDecoding memCap CDATA #REQUIRED>
 <!ELEMENT Camera EMPTY>
+<!ATTLIST Camera previewFrameRate CDATA #REQUIRED>
 <!ELEMENT EncoderOutputFileFormat EMPTY>
 <!ATTLIST EncoderOutputFileFormat name (mp4|3gp) #REQUIRED>
 <!ELEMENT VideoEncoderCap EMPTY>
