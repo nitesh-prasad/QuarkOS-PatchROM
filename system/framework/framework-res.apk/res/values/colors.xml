@@ -229,11 +229,11 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
-    <color name="material_deep_teal_200">#ff80cbc4</color>
-    <color name="material_deep_teal_500">#ff009688</color>
-    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_deep_teal_200">#ff9385d8</color>
+    <color name="material_deep_teal_500">#ff9385d8</color>
+    <color name="material_blue_grey_800">#ff263238</color>
     <color name="material_blue_grey_900">#ff263238</color>
-    <color name="material_blue_grey_950">#ff21272b</color>
+    <color name="material_blue_grey_950">#ff263238</color>
     <color name="timepicker_default_background_material">@color/primary_text_default_material_light</color>
     <color name="timepicker_default_text_color_material">@color/black</color>
     <color name="timepicker_default_ampm_selected_background_color_material">@color/material_deep_teal_200</color>

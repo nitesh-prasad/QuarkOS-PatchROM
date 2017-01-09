@@ -84,9 +84,9 @@
     <dimen name="action_button_min_width">56.0dip</dimen>
     <dimen name="action_bar_stacked_max_height">48.0dip</dimen>
     <dimen name="action_bar_stacked_tab_max_width">180.0dip</dimen>
-    <dimen name="notification_text_size">14.0sp</dimen>
-    <dimen name="notification_title_text_size">16.0sp</dimen>
-    <dimen name="notification_subtext_size">12.0sp</dimen>
+    <dimen name="notification_text_size">12.0sp</dimen>
+    <dimen name="notification_title_text_size">14.0sp</dimen>
+    <dimen name="notification_subtext_size">11.0sp</dimen>
     <dimen name="notification_top_pad">10.0dip</dimen>
     <dimen name="notification_top_pad_narrow">4.0dip</dimen>
     <dimen name="notification_top_pad_large_text">5.0dip</dimen>

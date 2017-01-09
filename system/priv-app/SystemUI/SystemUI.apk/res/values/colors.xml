@@ -10,13 +10,13 @@
     <color name="batterymeter_charge_color">#ffffffff</color>
     <color name="batterymeter_bolt_color">#ffffffff</color>
     <color name="qs_batterymeter_frame_color">#ff404040</color>
-    <color name="system_primary_color">#ff263238</color>
+    <color name="system_primary_color">#ff12151c</color>
     <color name="system_primary_color_translucent">#90aaaaaa</color>
-    <color name="system_secondary_color">#ff384248</color>
-    <color name="system_accent_color">#ff80cbc4</color>
+    <color name="system_secondary_color">#ff12151c</color>
+    <color name="system_accent_color">#c6ff1744</color>
     <color name="system_warning_color">#fff4511e</color>
     <color name="qs_text">#ffffffff</color>
-    <color name="qs_tile_divider">#29ffffff</color>
+    <color name="qs_tile_divider">#00000000</color>
     <color name="qs_tile_text">#b3ffffff</color>
     <color name="qs_subhead">#99ffffff</color>
     <color name="qs_detail_empty">#24b0bec5</color>

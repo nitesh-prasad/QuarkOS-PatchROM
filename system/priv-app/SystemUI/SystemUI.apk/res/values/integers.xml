@@ -11,7 +11,7 @@
     <integer name="navigation_bar_deadzone_hold">333</integer>
     <integer name="navigation_bar_deadzone_decay">333</integer>
     <integer name="config_recent_item_min_alpha">3</integer>
-    <integer name="quick_settings_num_columns">3</integer>
+    <integer name="quick_settings_num_columns">4</integer>
     <integer name="quick_settings_max_rows">4</integer>
     <integer name="quick_settings_max_rows_keyguard">3</integer>
     <integer name="quick_settings_user_time_settings_tile_span">1</integer>
