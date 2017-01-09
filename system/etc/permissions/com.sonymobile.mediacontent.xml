@@ -6,4 +6,6 @@
         file="/system/framework/com.sonymobile.mediacontent.jar"/>
     <library name="com.sonymobile.mediacontent_3"
         file="/system/framework/com.sonymobile.mediacontent.jar"/>
+    <library name="com.sonymobile.mediacontent_4"
+        file="/system/framework/com.sonymobile.mediacontent.jar"/>
 </permissions>

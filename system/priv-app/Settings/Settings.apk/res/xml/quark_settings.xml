@@ -11,6 +11,18 @@
     </PreferenceScreen>
     <PreferenceScreen android:title="@string/network_traffic_title" android:key="network_traffic_state " android:summary="@string/network_traffic_summary" android:fragment="com.android.settings.temasek.NetworkTraffic" />
     <PreferenceCategory android:title="@string/quark_sound" android:key="quark_sound_category" />
+    <PreferenceScreen android:title="@string/dolby_atmos" android:key="atmos">
+        <intent android:targetPackage="com.atmos.daxappUI" android:action="android.intent.action.MAIN" android:targetClass="com.atmos.daxappUI.MainActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/maxx_audio" android:key="maxxaudio">
+        <intent android:targetPackage="com.waves.maxxaudio" android:action="android.intent.action.MAIN" android:targetClass="com.waves.maxxaudio.MaxxAudioActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/viper" android:key="viper_audio">
+        <intent android:targetPackage="com.vipercn.viper4android_v2" android:action="android.intent.action.MAIN" android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/xperia_playanywhere" android:key="xperia_throw" android:summary="@string/xperia_playanywhere_summary">
+        <intent android:targetPackage="com.sonymobile.playanywhere" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.playanywhere.settings.ThrowSettingActivity" />
+    </PreferenceScreen>
     <PreferenceCategory android:title="@string/quark_additional_features" android:key="quark_additional_category" />
     <PreferenceScreen android:title="@string/quark_dpi_change" android:key="quark_dpi" android:summary="@string/quark_dpi_change_summary">
         <intent android:targetPackage="com.chornerman.easydpichanger" android:action="android.intent.action.MAIN" android:targetClass="com.chornerman.easydpichanger.MainActivity" />

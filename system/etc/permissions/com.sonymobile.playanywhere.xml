@@ -4,4 +4,8 @@
         file="/system/framework/com.sonymobile.playanywhere.jar"/>
     <library name="com.sonymobile.playanywhere.api_2"
         file="/system/framework/com.sonymobile.playanywhere.jar"/>
+    <library name="com.sonymobile.playanywhere.api_3"
+        file="/system/framework/com.sonymobile.playanywhere.jar"/>
+    <library name="com.sonymobile.playanywhere.api_4"
+        file="/system/framework/com.sonymobile.playanywhere.jar"/>
 </permissions>

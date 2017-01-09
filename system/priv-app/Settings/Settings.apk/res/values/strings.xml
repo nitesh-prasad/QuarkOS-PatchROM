@@ -3672,6 +3672,11 @@ And lot more..."</string>
     <string name="color_default">Default</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
+    <string name="dolby_atmos">Dolby Atmos®</string>
+    <string name="maxx_audio">MaxxAudio™</string>
+    <string name="viper">"ViPER's Audio"</string>
+    <string name="xperia_playanywhere">Throw settings</string>
+    <string name="xperia_playanywhere_summary">Wirelessly play content in your Xperia™ on other devices</string>
     <string name="quark_dpi_change">DPI Settings</string>
     <string name="quark_dpi_change_summary">Change screen DPI in real-time</string>
     <string name="quark_appsidebar">App Sidebar</string>

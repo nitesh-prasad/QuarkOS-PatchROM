@@ -30,4 +30,10 @@
              file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
     <library name="com.sonyericsson.privateapis_14"
              file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_15"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_16"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
+    <library name="com.sonyericsson.privateapis_17"
+             file="/system/framework/com.sonyericsson.privateapis_impl.jar"/>
 </permissions>
