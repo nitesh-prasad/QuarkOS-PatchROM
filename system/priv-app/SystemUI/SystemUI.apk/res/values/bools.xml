@@ -39,7 +39,7 @@
     <bool name="doze_proximity_check_before_pulse">true</bool>
     <bool name="doze_pulse_on_notifications">true</bool>
     <bool name="doze_pickup_performs_proximity_check">false</bool>
-    <bool name="config_showTaskManagerSwitcher">false</bool>
+    <bool name="config_showTaskManagerSwitcher">true</bool>
     <bool name="config_showRecentsTopButtons">false</bool>
     <bool name="config_enableDataSwitch">true</bool>
     <bool name="config_addRoamingForQuickSettings">false</bool>
