@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_pressed="true">
+        <bitmap android:src="@drawable/ic_sysbar_home" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/ic_sysbar_home" />
+    </item>
+    <item android:state_pressed="true" android:id="@id/pressed">
+        <bitmap android:src="@drawable/ani23" />
+    </item>
+    <item android:id="@id/not_pressed">
+        <bitmap android:src="@drawable/ic_sysbar_home" />
+    </item>
+    <transition android:toId="@id/pressed" android:fromId="@id/not_pressed">
+        <animation-list>
+            <item android:duration="30">
+                <bitmap android:src="@drawable/ic_sysbar_home" />
+            </item>
+            <item android:duration="70">
+                <bitmap android:src="@drawable/ani23" />
+            </item>
+            <item android:duration="60">
+                <bitmap android:src="@drawable/ani23" />
+            </item>
+            <item android:duration="70">
+                <bitmap android:src="@drawable/ani23" />
+            </item>
+            <item android:duration="50">
+                <bitmap android:src="@drawable/ani23" />
+            </item>
+            <item android:duration="70">
+                <bitmap android:src="@drawable/ani23" />
+            </item>
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/not_pressed" android:fromId="@id/pressed">
+        <animation-list>
+            <item android:duration="50">
+                <bitmap android:src="@drawable/ani23" />
+            </item>
+            <item android:duration="50">
+                <bitmap android:src="@drawable/ani23" />
+            </item>
+            <item android:duration="50">
+                <bitmap android:src="@drawable/ani23" />
+            </item>
+            <item android:duration="50">
+                <bitmap android:src="@drawable/ani23" />
+            </item>
+            <item android:duration="25">
+                <bitmap android:src="@drawable/ic_sysbar_home" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

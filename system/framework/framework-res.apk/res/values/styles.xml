@@ -3167,7 +3167,7 @@
         <item name="actionOverflowMenuStyle">@style/Widget.Material.PopupMenu.Overflow</item>
         <item name="windowDrawsSystemBarBackgrounds">true</item>
         <item name="statusBarColor">?colorPrimaryDark</item>
-        <item name="navigationBarColor">@color/black</item>
+        <item name="navigationBarColor">?colorPrimaryDark</item>
         <item name="selectableItemBackgroundBorderless">@drawable/item_background_borderless_material</item>
         <item name="actionModeShareDrawable">@drawable/ic_menu_share_material</item>
         <item name="actionModeFindDrawable">@drawable/ic_menu_find_material</item>
@@ -3514,7 +3514,7 @@
         <item name="actionOverflowMenuStyle">@style/Widget.Material.Light.PopupMenu.Overflow</item>
         <item name="windowDrawsSystemBarBackgrounds">true</item>
         <item name="statusBarColor">?colorPrimaryDark</item>
-        <item name="navigationBarColor">@color/black</item>
+        <item name="navigationBarColor">?colorPrimaryDark</item>
         <item name="selectableItemBackgroundBorderless">@drawable/item_background_borderless_material</item>
         <item name="actionModeShareDrawable">@drawable/ic_menu_share_material</item>
         <item name="actionModeFindDrawable">@drawable/ic_menu_find_material</item>
