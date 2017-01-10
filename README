@@ -90,4 +90,22 @@ If the smali file is huge and you wanna search the editable public IDs just sear
 You can also use this tool if you like : https://forum.xda-developers.com/android/software/tool-public-id-converter-t3064175
 
 
+---------------------------
+=> Here are some screenshots for different commits for your understanding:
+
+Quark Fluid SystemUI [commit: https://github.com/nitesh-prasad/QuarkOS/commit/b9bed4132a69e403284012d4bdd5438e95fd8c1f]
+
+Screenshot: http://imgur.com/a/lTDZW
+
+
+Quark Dynamic Navbar [commit: https://github.com/nitesh-prasad/QuarkOS/commit/3b3fe9d2cfb8f8bafc0b0f0de60d1d2f6ba04f80]
+
+Screenshot: http://imgur.com/a/Nolby
+
+
+Statusbar header Task Manager [commit: https://github.com/nitesh-prasad/QuarkOS/commit/788e6ef7216c9bc8fbe013e68a6ff2b60d7c6349]
+
+Screenshot: http://imgur.com/a/iKDWa
+
+
 This README will be updated as per requirement.
