@@ -91,6 +91,27 @@ You can also use this tool if you like : https://forum.xda-developers.com/androi
 
 
 ---------------------------
+
+
+=> Apps to be used in QuarkOS:
+
+Calendar: Xperia [http://www.apkmirror.com/apk/sony-mobile-communications/xperia-calendar/] or Asus [http://www.apkmirror.com/apk/zenui-asus-computer-inc/asus-calendar/]
+
+Clock: Xperia [http://www.apkmirror.com/apk/sony-mobile-communications/sony-clock/] or Asus [http://www.apkmirror.com/apk/zenui-asus-computer-inc/clock-zenui-asus-computer-inc-2/]
+
+File Manager: MiXplorer [https://forum.xda-developers.com/showthread.php?t=1523691] 
+
+Calculator: AOSP or Google [http://www.apkmirror.com/apk/google-inc/google-calculator/]
+
+Weather: Xperia [http://www.apkmirror.com/apk/sony-mobile-communications/xperia-weather/]
+
+Audio Recorder: Xperia [http://www.apkmirror.com/apk/sony-mobile-communications/audio-recorder/]
+
+Boost+: HTC [https://www.apkmirror.com/apk/htc-corporation/boost/]
+
+
+
+
 => Here are some screenshots for different commits for your understanding:
 
 Quark Fluid SystemUI [commit: https://github.com/nitesh-prasad/QuarkOS/commit/b9bed4132a69e403284012d4bdd5438e95fd8c1f]
